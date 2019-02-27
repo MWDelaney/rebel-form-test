@@ -5,10 +5,14 @@
 layout: default
 ---
 
-<form name="contact" method="POST" data-netlify="true">
-  <div class="form-group">
+<div class="container mt-5">
+  <form name="Contact Form" method="POST" data-netlify="true">
     <label for="exampleName">Email address</label>
-    <input type="email" class="form-control" id="exampleName" placeholder="Your Name">
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+    <div class="input-group mb-3">
+      <input id="exampleName" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="button" id="button-addon2" type="submit">Button</button>
+      </div>
+    </div>
+  </form>
+</div>
