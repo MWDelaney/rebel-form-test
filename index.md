@@ -7,9 +7,9 @@ layout: default
 
 <div class="container mt-5">
   <form name="Contact Form" method="POST" data-netlify="true">
-    <label for="exampleName">Your Name</label>
+    <label for="name">Your Name</label>
     <div class="input-group mb-3">
-      <input id="exampleName" type="text" class="form-control" placeholder="Your name" aria-label="Your name" aria-describedby="button-addon2">
+      <input id="name" name="Name" type="text" class="form-control" placeholder="Your name" aria-label="Your name" aria-describedby="button-addon2">
       <div class="input-group-append">
         <button class="btn btn-primary" type="button" id="button-addon2" type="submit">Button</button>
       </div>
